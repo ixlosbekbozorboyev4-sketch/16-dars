@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Loyihasi</title>
+    <link rel="stylesheet" href="uyga vazifa.css">
+</head>
+<body>
+
+    <div class="todo-container">
+        <h2>Todo Loyihasi</h2>
+        
+        <!-- Qidiruv -->
+        <input type="text" id="searchInput" placeholder="Vazifalarni qidirish (Search)...">
+        
+        <!-- Yangi vazifa qo'shish -->
+        <div class="add-task">
+            <input type="text" id="taskInput" placeholder="Yangi vazifa kiriting...">
+            <button id="addBtn">Qo'shish</button>
+        </div>
+
+        <!-- Filterlar -->
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">Barchasi (All)</button>
+            <button class="filter-btn" data-filter="active">Faol (Active)</button>
+            <button class="filter-btn" data-filter="done">Bajarilgan (Done)</button>
+        </div>
+
+        <!-- Vazifalar ro'yxati -->
+        <ul id="todoList"></ul>
+    </div>
+
+    <script src="uyga vazifa.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+stringfy - JS dan server tiliga o'girib beruvchi metod
+parse - serverdan JS ga o'girib beruvchi metod
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+LocalStorage methodlari
+
+setItem - LocalStorage ga malumot saqlaydi
+getItem - LocalStorage dagi malumotlarni frontendga olib beradi
+removeItem - LocalStorage dagi malumotlarni o'chiradi
